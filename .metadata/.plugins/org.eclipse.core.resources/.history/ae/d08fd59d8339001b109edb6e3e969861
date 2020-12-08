@@ -1,0 +1,29 @@
+package privatefw.E2E;
+
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+public class Base {
+	
+	
+
+	public WebDriver driver; 
+	
+	
+	public void initializeDriver() {
+		
+		Properties prop = new Properties();
+		
+		FileInputStream fis = new FileInputStream();
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+}

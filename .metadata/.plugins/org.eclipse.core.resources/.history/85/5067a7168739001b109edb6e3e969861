@@ -1,0 +1,22 @@
+package privatefw.E2E;
+
+import java.io.IOException;
+
+public class FirstTest extends  Base {
+	
+	
+	public void launch() throws IOException {
+		
+		driver = initializeDriver();
+		
+		driver.get("https://rahulshettyacademy.com/");
+		
+		driver.quit();
+		
+		
+	}
+	
+	
+	
+
+}

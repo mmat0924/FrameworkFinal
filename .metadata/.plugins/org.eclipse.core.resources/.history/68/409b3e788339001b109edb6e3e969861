@@ -1,0 +1,22 @@
+package privatefw.E2E;
+
+public class Base {
+
+	public WebDriver driver; 
+	
+	
+	public void initializeDriver() {
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+}

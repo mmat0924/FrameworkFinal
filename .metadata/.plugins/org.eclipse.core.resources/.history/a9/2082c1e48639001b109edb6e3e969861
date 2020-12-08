@@ -1,0 +1,15 @@
+package privatefw.E2E;
+
+public class FirstTest extends  Base {
+	
+	
+	public void launch() {
+		
+		initializeDriver();
+		
+	}
+	
+	
+	
+
+}

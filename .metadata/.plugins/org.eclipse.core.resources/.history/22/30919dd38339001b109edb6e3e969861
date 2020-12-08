@@ -1,0 +1,33 @@
+package privatefw.E2E;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+public class Base {
+	
+	
+
+	public WebDriver driver; 
+	
+	
+	public void initializeDriver() throws FileNotFoundException {
+		
+		Properties prop = new Properties();
+		
+		FileInputStream fis = new FileInputStream("C:\\Users\\melma\\eclipsefw-final\\E2E\\src\\main\\java\\data.properties");
+		
+		prop.load(fis);
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+}
