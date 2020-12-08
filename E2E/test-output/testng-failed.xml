@@ -5,7 +5,7 @@
     <classes>
       <class name="privatefw.E2E.FirstTest">
         <methods>
-          <include name="launch"/>
+          <include name="launch" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- privatefw.E2E.FirstTest -->
     </classes>

@@ -1,0 +1,30 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class LandingPage {
+
+	/* page object class structure involves objects, methods which return objects 
+	 * and constructor
+	 */
+	
+	
+	WebDriver driver; 
+	
+	
+	By login = By.cssSelector("a[href*='sign_in']");
+	
+	
+	public WebElement getLogin()
+	{
+		return driver.findElement(login);
+	}
+	
+	
+	
+	
+	
+	
+}
