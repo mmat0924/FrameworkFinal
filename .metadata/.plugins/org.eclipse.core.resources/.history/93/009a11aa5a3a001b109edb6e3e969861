@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+
+<!--Separate every class as individual tests -->
+
+	<test thread-count="5" name="TestNavigation">
+		<classes> 
+			<class name="privatefw.E2E.FirstTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="SampleTest">
+		<classes>
+			<class name="privatefw.E2E.Sample" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="AppTest">
+		<classes>
+			<class name="privatefw.E2E.AppTest" />
+		</classes>
+	</test> <!-- Test -->
+
+
+<test thread-count="5" name="HomePageTest">
+		<classes>
+			<class name="privatefw.E2E.Navigation" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	<test thread-count="5" name="PatternTest">
+		<classes>
+			<class name="privatefw.E2E.AppTest" />
+		</classes>
+	</test> <!-- Test -->
+
+
+
+</suite> <!-- Suite -->

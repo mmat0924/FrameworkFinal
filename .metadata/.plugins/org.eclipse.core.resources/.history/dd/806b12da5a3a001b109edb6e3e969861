@@ -1,0 +1,6 @@
+14:11:40.507 [TestNG-tests-5] INFO  resources.Base - Browser closed
+14:11:41.960 [TestNG-tests-1] INFO  resources.Base - Navigation to the URL succeeded
+14:11:41.989 [TestNG-tests-1] INFO  resources.Base - Navigation bar is present
+14:11:42.010 [TestNG-tests-1] INFO  resources.Base - Text is validated in home screen
+14:11:43.692 [TestNG-tests-1] INFO  resources.Base - Able to land on login page
+14:11:44.756 [TestNG-tests-1] INFO  resources.Base - Browser closed
