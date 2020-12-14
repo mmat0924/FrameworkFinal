@@ -1,2 +1,5 @@
-17:34:11.333 [TestNG-tests-1] INFO  resources.Base - Browser closed
-17:34:11.817 [TestNG-tests-5] INFO  resources.Base - Browser closed
+15:34:05.067 [main] INFO  resources.Base - Driver successfully installed
+15:34:09.232 [main] INFO  resources.Base - Navigation to the URL succeeded
+15:34:12.053 [main] INFO  resources.Base - Able to land on login page
+15:34:13.509 [main] INFO  resources.Base - Text verification successful
+15:34:14.124 [main] INFO  resources.Base - Browser closed

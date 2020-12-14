@@ -49,9 +49,11 @@ public class FirstTest extends  Base {
 		
 		log.info("Text is validated in home screen");
 
-		lp.getLogin().click();
-
-		LoginPage l = new LoginPage(driver);
+		 LoginPage l  = lp.getLogin();
+		
+		/*
+		 * LoginPage l = new LoginPage(driver);
+		 */
 
 		log.info("Able to land on login page");
 		

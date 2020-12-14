@@ -1,43 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="15430" started-at="2020-12-09T23:33:56Z" finished-at="2020-12-09T23:34:11Z">
+  <suite name="Suite" duration-ms="40776" started-at="2020-12-13T19:35:15Z" finished-at="2020-12-13T19:35:55Z">
     <groups>
     </groups>
-    <test name="AppTest" duration-ms="3" started-at="2020-12-09T23:33:56Z" finished-at="2020-12-09T23:33:56Z">
-    </test> <!-- AppTest -->
-    <test name="SampleTest" duration-ms="15" started-at="2020-12-09T23:33:56Z" finished-at="2020-12-09T23:33:56Z">
-      <class name="privatefw.E2E.Sample">
-        <test-method status="PASS" signature="sample()[pri:0, instance:privatefw.E2E.Sample@2ddc9a9f]" name="sample" duration-ms="1" started-at="2020-12-09T23:33:56Z" finished-at="2020-12-09T23:33:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sample -->
-      </class> <!-- privatefw.E2E.Sample -->
-    </test> <!-- SampleTest -->
-    <test name="HomePageTest" duration-ms="8555" started-at="2020-12-09T23:33:56Z" finished-at="2020-12-09T23:34:04Z">
-      <class name="privatefw.E2E.Navigation">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:privatefw.E2E.Navigation@5b7a8434]" name="setUp" is-config="true" duration-ms="3496" started-at="2020-12-09T23:33:56Z" finished-at="2020-12-09T23:33:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="naviBar()[pri:0, instance:privatefw.E2E.Navigation@5b7a8434]" name="naviBar" duration-ms="4481" started-at="2020-12-09T23:33:59Z" finished-at="2020-12-09T23:34:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- naviBar -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:privatefw.E2E.Navigation@5b7a8434]" name="tearDown" is-config="true" duration-ms="577" started-at="2020-12-09T23:34:04Z" finished-at="2020-12-09T23:34:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- privatefw.E2E.Navigation -->
-    </test> <!-- HomePageTest -->
-    <test name="TestNavigation" duration-ms="14953" started-at="2020-12-09T23:33:56Z" finished-at="2020-12-09T23:34:11Z">
+    <test name="TestNavigation" duration-ms="13754" started-at="2020-12-13T19:35:15Z" finished-at="2020-12-13T19:35:28Z">
       <class name="privatefw.E2E.FirstTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:privatefw.E2E.FirstTest@229c6181]" name="setUp" is-config="true" duration-ms="3565" started-at="2020-12-09T23:33:56Z" finished-at="2020-12-09T23:33:59Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:privatefw.E2E.FirstTest@55cf0d14]" name="setUp" is-config="true" duration-ms="3305" started-at="2020-12-13T19:35:15Z" finished-at="2020-12-13T19:35:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="launch(java.lang.String, java.lang.String)[pri:0, instance:privatefw.E2E.FirstTest@229c6181]" name="launch" duration-ms="7477" started-at="2020-12-09T23:33:59Z" data-provider="getData" finished-at="2020-12-09T23:34:07Z">
+        <test-method status="PASS" signature="launch(java.lang.String, java.lang.String)[pri:0, instance:privatefw.E2E.FirstTest@55cf0d14]" name="launch" duration-ms="6978" started-at="2020-12-13T19:35:18Z" data-provider="getData" finished-at="2020-12-13T19:35:25Z">
           <params>
             <param index="0">
               <value>
@@ -53,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="launch(java.lang.String, java.lang.String)[pri:0, instance:privatefw.E2E.FirstTest@229c6181]" name="launch" duration-ms="3291" started-at="2020-12-09T23:34:07Z" data-provider="getData" finished-at="2020-12-09T23:34:10Z">
+        <test-method status="PASS" signature="launch(java.lang.String, java.lang.String)[pri:0, instance:privatefw.E2E.FirstTest@55cf0d14]" name="launch" duration-ms="2888" started-at="2020-12-13T19:35:25Z" data-provider="getData" finished-at="2020-12-13T19:35:28Z">
           <params>
             <param index="0">
               <value>
@@ -69,19 +43,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:privatefw.E2E.FirstTest@229c6181]" name="tearDown" is-config="true" duration-ms="615" started-at="2020-12-09T23:34:10Z" finished-at="2020-12-09T23:34:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:privatefw.E2E.FirstTest@55cf0d14]" name="tearDown" is-config="true" duration-ms="561" started-at="2020-12-13T19:35:28Z" finished-at="2020-12-13T19:35:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- privatefw.E2E.FirstTest -->
     </test> <!-- TestNavigation -->
-    <test name="PatternTest" duration-ms="15430" started-at="2020-12-09T23:33:56Z" finished-at="2020-12-09T23:34:11Z">
-      <class name="privatefw.E2E.Pattern">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:privatefw.E2E.Pattern@1672fe87]" name="setUp" is-config="true" duration-ms="3495" started-at="2020-12-09T23:33:56Z" finished-at="2020-12-09T23:33:59Z">
+    <test name="SampleTest" duration-ms="0" started-at="2020-12-13T19:35:28Z" finished-at="2020-12-13T19:35:28Z">
+      <class name="privatefw.E2E.Sample">
+        <test-method status="PASS" signature="sample()[pri:0, instance:privatefw.E2E.Sample@16b2bb0c]" name="sample" duration-ms="0" started-at="2020-12-13T19:35:28Z" finished-at="2020-12-13T19:35:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+      </class> <!-- privatefw.E2E.Sample -->
+    </test> <!-- SampleTest -->
+    <test name="AppTest" duration-ms="0" started-at="2020-12-13T19:35:29Z" finished-at="2020-12-13T19:35:29Z">
+    </test> <!-- AppTest -->
+    <test name="HomePageTest" duration-ms="7974" started-at="2020-12-13T19:35:29Z" finished-at="2020-12-13T19:35:36Z">
+      <class name="privatefw.E2E.Navigation">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:privatefw.E2E.Navigation@4dc8caa7]" name="setUp" is-config="true" duration-ms="3123" started-at="2020-12-13T19:35:29Z" finished-at="2020-12-13T19:35:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="patternMatch()[pri:0, instance:privatefw.E2E.Pattern@1672fe87]" name="patternMatch" duration-ms="4843" started-at="2020-12-09T23:33:59Z" finished-at="2020-12-09T23:34:04Z">
+        <test-method status="PASS" signature="naviBar()[pri:0, instance:privatefw.E2E.Navigation@4dc8caa7]" name="naviBar" duration-ms="4303" started-at="2020-12-13T19:35:32Z" finished-at="2020-12-13T19:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naviBar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:privatefw.E2E.Navigation@4dc8caa7]" name="tearDown" is-config="true" duration-ms="547" started-at="2020-12-13T19:35:36Z" finished-at="2020-12-13T19:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- privatefw.E2E.Navigation -->
+    </test> <!-- HomePageTest -->
+    <test name="PatternTest" duration-ms="7769" started-at="2020-12-13T19:35:37Z" finished-at="2020-12-13T19:35:44Z">
+      <class name="privatefw.E2E.Pattern">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:privatefw.E2E.Pattern@6c45ee6e]" name="setUp" is-config="true" duration-ms="3043" started-at="2020-12-13T19:35:37Z" finished-at="2020-12-13T19:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="patternMatch()[pri:0, instance:privatefw.E2E.Pattern@6c45ee6e]" name="patternMatch" duration-ms="3892" started-at="2020-12-13T19:35:40Z" finished-at="2020-12-13T19:35:43Z">
           <exception class="junit.framework.ComparisonFailure">
             <message>
               <![CDATA[expected:<...er...> but was:<......>]]>
@@ -104,24 +104,49 @@ at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
           </exception> <!-- junit.framework.ComparisonFailure -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patternMatch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:privatefw.E2E.Pattern@1672fe87]" name="tearDown" is-config="true" duration-ms="593" started-at="2020-12-09T23:34:11Z" finished-at="2020-12-09T23:34:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:privatefw.E2E.Pattern@6c45ee6e]" name="tearDown" is-config="true" duration-ms="552" started-at="2020-12-13T19:35:44Z" finished-at="2020-12-13T19:35:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- privatefw.E2E.Pattern -->
     </test> <!-- PatternTest -->
+    <test name="PatternTest2" duration-ms="10977" started-at="2020-12-13T19:35:44Z" finished-at="2020-12-13T19:35:55Z">
+      <class name="privatefw.E2E.Obtimize">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:privatefw.E2E.Obtimize@7ca33c24]" name="setUp" is-config="true" duration-ms="2980" started-at="2020-12-13T19:35:44Z" finished-at="2020-12-13T19:35:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:privatefw.E2E.Obtimize@7ca33c24]" name="launch" duration-ms="7428" started-at="2020-12-13T19:35:47Z" finished-at="2020-12-13T19:35:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:privatefw.E2E.Obtimize@7ca33c24]" name="tearDown" is-config="true" duration-ms="567" started-at="2020-12-13T19:35:55Z" finished-at="2020-12-13T19:35:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- privatefw.E2E.Obtimize -->
+    </test> <!-- PatternTest2 -->
   </suite> <!-- Suite -->
 </testng-results>

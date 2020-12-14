@@ -13,12 +13,13 @@ public class LandingPage {
 
 	WebDriver driver; 
 
-    
-	By login = By.cssSelector("a[href*='sign_in']");
+    //achieve encapsulation with public methods and private variables
+	
+	private By login = By.cssSelector("a[href*='sign_in']");
 
-	By navBar = By.xpath("//header/div[2]/div[1]/div[1]/div[2]/nav[1]/div[2]/ul[1]");
+	private By navBar = By.xpath("//header/div[2]/div[1]/div[1]/div[2]/nav[1]/div[2]/ul[1]");
 
-	By lanText = By.xpath("//h2[contains(text(),'Featured Courses')]");
+	private By lanText = By.xpath("//h2[contains(text(),'Featured Courses')]");
 	
 	//define constructor to give life to driver when creating objects of this class
 
@@ -28,9 +29,10 @@ public class LandingPage {
 
 
 
-	public WebElement getLogin()
+	public LoginPage getLogin()
 	{
-		return driver.findElement(login);
+		driver.findElement(login).click(); //modified page object structure to return object 
+		return new LoginPage(driver);
 	}
 
 

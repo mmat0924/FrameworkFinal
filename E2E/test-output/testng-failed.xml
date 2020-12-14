@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="privatefw.E2E.FirstTest">
+      <class name="privatefw.E2E.Obtimize">
         <methods>
-          <include name="launch" invocation-numbers="0 1"/>
+          <include name="launch"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- privatefw.E2E.FirstTest -->
+      </class> <!-- privatefw.E2E.Obtimize -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

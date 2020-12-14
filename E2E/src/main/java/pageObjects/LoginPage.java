@@ -14,9 +14,10 @@ public class LoginPage {
 	WebDriver driver; 
 
     
-	By email = By.cssSelector("[id='user_email']");
-	By password = By.cssSelector("[id='user_password']");
-	By login = By.cssSelector("[value='Log In']");
+	private By email = By.cssSelector("[id='user_email']");
+	private By password = By.cssSelector("[id='user_password']");
+	private By login = By.cssSelector("[value='Log In']");
+	private By forgotPass = By.cssSelector("[href*='password/new']");
 
 
 	//define constructor to give life to driver when creating objects of this class
@@ -43,7 +44,11 @@ public class LoginPage {
 		return driver.findElement(login);
 	}
 	
-
+    public ResetPage getPassLink()
+    {
+    	driver.findElement(forgotPass).click();
+    	return new ResetPage(driver);
+    }
 
 
 
