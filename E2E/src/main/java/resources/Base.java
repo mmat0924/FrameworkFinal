@@ -39,22 +39,22 @@ public class Base {
 
 		prop.load(fis); 
 
-		/* String browsername = prop.getProperty("browser"); */
+		String browsername = prop.getProperty("browser"); 
 		
-		String browsername = System.getProperty("browser"); //drive from jenkins
+		/*String browsername = System.getProperty("browser");*/ //drive from jenkins
 		
 		
-/*
+
 		if(browsername.equals("chrome")) {
 
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"\\src\\main\\java\\resources\\chromedriver.exe");
 			driver = new ChromeDriver();
 
-		}*/
+		}
 		
 		//chrome headless execution
 		
-		if(browsername.contains("chrome")) {
+	/*	if(browsername.contains("chrome")) {
 
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"\\src\\main\\java\\resources\\chromedriver.exe");
 			ChromeOptions op = new ChromeOptions();
@@ -62,7 +62,7 @@ public class Base {
 			op.addArguments("headless");
 			driver = new ChromeDriver(op);
 		}
-
+*/
 		else if (browsername.equals("firefox")) {
 
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+ "\\src\\main\\java\\resources\\geckodriver.exe");

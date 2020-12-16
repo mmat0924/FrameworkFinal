@@ -16,6 +16,8 @@ import pageObjects.LandingPage;
 import resources.Base;
 
 public class Pattern extends  Base {
+	
+	LandingPage lp;
 
 	public static Logger log = LogManager.getLogger(Base.class.getName()); // use this code in every test case
 	public WebDriver driver; //create driver variable local to the class so that it doesn't get overridden by another class 
@@ -39,7 +41,7 @@ public class Pattern extends  Base {
 
 		//create object of landing page to access methods of that class
 
-		LandingPage lp = new LandingPage(driver);
+		lp = new LandingPage(driver);
 
 		Assert.assertEquals("Featured Courerses", lp.disText().getText());   
 

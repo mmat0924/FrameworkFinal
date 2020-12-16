@@ -17,6 +17,8 @@ import pageObjects.ResetPage;
 import resources.Base;
 
 public class Obtimize extends  Base {
+	
+	LandingPage lp; 
 
 	public static Logger log = LogManager.getLogger(Base.class.getName()); // use this code in every test case
 	public WebDriver driver; //create driver variable local to the class so that it doesn't get overridden by another class 
@@ -40,7 +42,7 @@ public class Obtimize extends  Base {
 
 		//create object of landing page to access methods of that class
 
-		LandingPage lp = new LandingPage(driver);
+		lp = new LandingPage(driver);
 
 		LoginPage l = lp.getLogin(); //clicks on the link and also returns object of next page
 

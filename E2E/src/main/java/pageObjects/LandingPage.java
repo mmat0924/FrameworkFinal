@@ -35,7 +35,13 @@ public class LandingPage {
 		return new LoginPage(driver);
 	}
 
+	public WebElement getLoginLink()
+	{
+		return driver.findElement(login); //modified page object structure to return object 
+		
+	}
 
+	
 
 	public WebElement disNav()
 	{
